@@ -99,6 +99,13 @@ const experience = () => {
                     <small className='text-light'>Intermidiate</small>
                     </div>
                 </article>
+                <article className='experience_details'>
+                    <BsPatchCheckFill className='experinced_details-icons' />
+                    <div>
+                    <h4>Express</h4>
+                    <small className='text-light'>Intermidiate</small>
+                    </div>
+                </article>
                 {/* <article className='experience_details'>
                     <BsPatchCheckFill className='experinced_details-icons' />
                     <h4>Sass</h4>

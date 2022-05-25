@@ -20,7 +20,7 @@ const portfolio = () => {
                     <img src={IMG1} alt="" />
 
                 </div>
-                <h3> Vue app for Bus Operators</h3>
+                <h3>Vue app for Bus Operators</h3>
                 <div className="portfolio_item-cta">
                 <a href="https://github.com/ramonm85/caseyStengel" className="btn" target='blank' > github</a>
                 <a href="https://caseystengel.netlify.app/" className="btn btn-primary" target='blank'> Live Demo</a>
@@ -31,7 +31,7 @@ const portfolio = () => {
                     <img src={IMG2} alt="" />
 
                 </div>
-                <h3> A Music Box for niece</h3>
+                <h3>A Music Box for niece</h3>
                 <div className="portfolio_item-cta">
                 <a href="https://github.com/ramonm85/alanysite" className="btn" target='blank'> github</a>
                 <a href="https://alanysmusicbox.netlify.app/" className="btn btn-primary" target='blank'> Live Demo</a>
@@ -42,7 +42,7 @@ const portfolio = () => {
                     <img src={IMG3} alt="" />
 
                 </div>
-                <h3> Jquery Practice </h3>
+                <h3>Jquery Practice </h3>
                 <div className="portfolio_item-cta">
                 <a href="https://github.com/ramonm85/scrape" className="btn" target='blank' > github</a>
                 <a href="https://scrapelife.netlify.app" className="btn btn-primary" target='blank'> Live Demo</a>
