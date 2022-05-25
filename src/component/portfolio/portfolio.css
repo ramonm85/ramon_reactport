@@ -3,3 +3,20 @@
     grid-template-columns: 2fr 2fr 2fr ;
     gap: 2rem;
 }
+/* ==========MEDIA QUERIES (MEDIUM DEVICES)============== */
+
+@media screen and (max-width: 1024px){
+    .portfolio_container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* ==========MEDIA QUERIES (SMALL DEVICES)============== */
+    
+@media screen and (max-width: 600px){
+    .portfolio_container{
+        grid-template-columns: 1fr;
+    }
+    
+}
