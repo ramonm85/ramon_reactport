@@ -41,12 +41,12 @@ const about = () => {
                         </article>
                     </div>
                     <p>
-                    Hello, my name is Ramon Marmol. I am the creator of ramonreacts.netlify.app. ( I Love to listen to music, spend time with friends and travel.
-                    I like to code and push myself learn new things,
-                    I would love to be a Web developer. 
+                    Hello, my name is Ramon Marmol. I am the creator of ramonreacts.netlify.app.  I Love listening to music, spending time with friends and traveling.
+                    I like to code and push myself to learn new things,
+                    I aspire to be a Web developer. 
                     I created this website with the intention to show my ability to learn different javascript frameworks including "React". 
-                    with the inention to show that i am eager to expand my knoledge in this field. 
-                    Im hoping this allows you to cofide you in my ability to give you the confidence in the Knowledge ive thought myself  ) 
+                    with the intention to show that i am eager to expand my knowledge in this field. 
+                    I am hoping this will allow you to confide in my ability to give you the confidence in the Knowledge i have thought myself.   
                     Let me help you take your next step !!
                     
                     </p>
