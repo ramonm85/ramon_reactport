@@ -46,7 +46,7 @@ const about = () => {
                     I aspire to be a Web developer. 
                     I created this website with the intention to show my ability to learn different javascript frameworks including "React". 
                     My the intention is to show that I am eager to expand my knowledge in this field. 
-                    I am hoping this will allow you to confide in my ability to give you the confidence in the knowledge I have thought myself.   
+                    I am hoping this will allow you to confide in my ability to give you the confidence in the knowledge I have taught myself.   
                     Let me help you take your next step !!
                     
                     </p>
