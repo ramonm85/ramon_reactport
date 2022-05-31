@@ -22,8 +22,8 @@ const portfolio = () => {
                 </div>
                 <h3>Vue app for Bus Operators</h3>
                 <div className="portfolio_item-cta">
-                <a href="https://github.com/ramonm85/caseyStengel" className="btn" target='blank' > github</a>
-                <a href="https://caseystengel.netlify.app/" className="btn btn-primary" target='blank'> Live Demo</a>
+                <a href="https://github.com/ramonm85/caseyStengel" className="btn" target={'_blank'} > github</a>
+                <a href="https://caseystengel.netlify.app/" className="btn btn-primary" target={'_blank'}> Live Demo</a>
                 </div>
             </article>
             <article className="portfolio_item">
@@ -33,8 +33,8 @@ const portfolio = () => {
                 </div>
                 <h3>A Music Box for niece</h3>
                 <div className="portfolio_item-cta">
-                <a href="https://github.com/ramonm85/alanysite" className="btn" target='blank'> github</a>
-                <a href="https://alanysmusicbox.netlify.app/" className="btn btn-primary" target='blank'> Live Demo</a>
+                <a href="https://github.com/ramonm85/alanysite" className="btn" target={'_blank'}> github</a>
+                <a href="https://alanysmusicbox.netlify.app/" className="btn btn-primary" target={'_blank'}> Live Demo</a>
                 </div>
             </article>
             <article className="portfolio_item">
@@ -44,8 +44,8 @@ const portfolio = () => {
                 </div>
                 <h3>Jquery Practice </h3>
                 <div className="portfolio_item-cta">
-                <a href="https://github.com/ramonm85/scrape" className="btn" target='blank' > github</a>
-                <a href="https://scrapelife.netlify.app" className="btn btn-primary" target='blank'> Live Demo</a>
+                <a href="https://github.com/ramonm85/scrape" className="btn" target={'_blank'} > github</a>
+                <a href="https://scrapelife.netlify.app" className="btn btn-primary" target={'_blank'}> Live Demo</a>
                 </div>
             </article>
             {/* <article className="portfolio_item">
