@@ -16,9 +16,9 @@ const footer = () => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="footer_socials">
-                <a href="https://www.facebook.com"><FaFacebookF/></a>
-                <a href="https://www.instagram.com"><BsInstagram/></a>
-                <a href="https://www.twitter.com"><FiTwitter/></a>
+                <a href="https://www.facebook.com/ramonm85"><FaFacebookF/></a>
+                <a href="https://www.instagram.com/rmarmol85/"><BsInstagram/></a>
+                <a href="https://twitter.com/rmarmol85"><FiTwitter/></a>
             </div>
             <div className="footer_copyright">
                 <small> &copy; Ramon Marmol. all rights reserved</small>
