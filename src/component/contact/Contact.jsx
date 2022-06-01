@@ -1,28 +1,29 @@
 import React from 'react'
 import "./contact.css"
-import emailjs from 'emailjs-com';
-import { useRef } from 'react';
+// import emailjs from 'emailjs-com';
 import {MdOutlineEmail} from 'react-icons/md';
 import {FaFacebookMessenger} from 'react-icons/fa';
 import {FaWhatsapp} from 'react-icons/fa';
-
+// import { useRef } from 'react';
 
 
 const contact = () => {
 
-    const form = useRef();
+    // const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
     
-        emailjs.sendForm('service_ilo99zn', 'template_gw0zcl4', form.current, '3mjMUIZW2J6cXdBFB')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-      };
+
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    
+    //     emailjs.sendForm('service_ilo99zn', 'template_gw0zcl4', form.current, '3mjMUIZW2J6cXdBFB')
+    //       .then((result) => {
+    //           console.log(result.text);
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    //       e.target.reset()
+    //   };
     
     
     return (
@@ -52,7 +53,7 @@ const contact = () => {
                 </article>
             </div>
             {/* END OF CONTACT OPTION */}
-            <form ref={form} onSubmit={sendEmail}>
+            <form /*ref={form} onSubmit={sendEmail}*/>
                 <input type="text" name='name'placeholder='Your Full Name'required />
                 <input type="email" name='email' placeholder='Your Email' required />
                 <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
