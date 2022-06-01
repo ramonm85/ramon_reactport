@@ -1,21 +1,30 @@
 import React from 'react'
 import "./contact.css"
-import {MdOutlineEmail} from 'react-icons/md'
-import {FaFacebookMessenger} from 'react-icons/fa'
-import {FaWhatsapp} from 'react-icons/fa'
+import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import {MdOutlineEmail} from 'react-icons/md';
+import {FaFacebookMessenger} from 'react-icons/fa';
+import {FaWhatsapp} from 'react-icons/fa';
+
+
 
 const contact = () => {
 
     const form = useRef();
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('service_ilo99zn', 'template_gw0zcl4', form.current, '3mjMUIZW2J6cXdBFB')
-        e.target.reset()
-          };
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+      };
+    
+    
     return (
         <section id='contact'>
             <h5> Get In Touch</h5>
