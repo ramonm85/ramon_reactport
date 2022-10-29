@@ -9,8 +9,8 @@ import Portfolio from './component/portfolio/Portfolio';
 import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 
-ReactGA.initialize('G-62FNYPYZWR');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('G-62FNYPYZWR'),[options];
+ReactGA.pageview(window.location.pathname);
 const App = () => {
   return (
     <>
