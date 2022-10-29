@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGa from 'react-ga';
 import Header from './component/header/Header'
 import Nav from './component/nav/Nav'
 import About from './component/about/About'
@@ -8,6 +9,9 @@ import Portfolio from './component/portfolio/Portfolio';
 import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 
+
+const TRACKING_ID = "G-62FNYPYZWR";
+ReactGa.initialize(TRACKING_ID);
 
 const App = () => {
   return (
