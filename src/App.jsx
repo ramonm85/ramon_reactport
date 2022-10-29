@@ -9,10 +9,8 @@ import Portfolio from './component/portfolio/Portfolio';
 import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 
-
-const TRACKING_ID = "G-62FNYPYZWR";
-ReactGA.initialize(TRACKING_ID);
-
+ReactGA.initialize('G-62FNYPYZWR');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const App = () => {
   return (
     <>
